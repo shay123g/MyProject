@@ -1,10 +1,10 @@
 package PageObjects_Web_Google;
 
-import Utilities.ProjectVariables;
+import Utilities.GlobalVariables;
 import org.openqa.selenium.support.PageFactory;
 
 
-public class ManagePageObjects extends ProjectVariables
+public class ManagePageObjects extends GlobalVariables
 {
     public static void InitializePages()
     {

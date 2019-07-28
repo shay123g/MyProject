@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
-public class ProjectVariables
+public class GlobalVariables
 {
     public static WebDriver driver;
     public static GoogleMainPage GoogleHomePage;
