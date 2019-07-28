@@ -1,4 +1,4 @@
-package PageObjects;
+package PageObjects_Web_Google;
 
 
 import org.openqa.selenium.WebElement;
