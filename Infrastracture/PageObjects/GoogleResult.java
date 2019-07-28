@@ -7,10 +7,16 @@ import org.openqa.selenium.support.How;
 
 public class GoogleResult
 {
-    //change all
-    @FindBy(how = How.XPATH, using="//form[@id='tsf']/div[2]/div/div[1]/input")
-    public WebElement putthecorrectvariable2;
+    @FindBy(how = How.ID, using="hdtb-tls")
+    public WebElement ToolsTab;
 
-    @FindBy(how = How.XPATH, using="//form[@id='tsf']/div[2]/div/div[3]/center/input[1]")
-    public WebElement putthecorrectvariable1;
+    @FindBy(how = How.XPATH, using="//div[@class='hdtb-mn-hd']/span")
+    public WebElement ToolsDropDownArrow;
+
+    @FindBy(how = How.XPATH, using="//div[@class='hdtb-td-o']/ul/li[2]")
+    public WebElement TimeSelection;
+
+    @FindBy(how = How.XPATH, using="//div[@class='hdtb-mn-hd hdtb-tsel']/div")
+    public WebElement SelectedTime;
+
 }
